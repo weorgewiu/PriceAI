@@ -31,12 +31,7 @@ pip install torch pandas numpy scikit-learn matplotlib kaggle
 
 Download the dataset from Kaggle:
 
-```bash
-kaggle competitions download -c house-prices-advanced-regression-techniques
-unzip house-prices-advanced-regression-techniques.zip -d kaggle/
-```
-
-This will give you `train.csv` and `test.csv` in the `kaggle/` folder.
+Included in the repository are `train.csv` and `test.csv`.
 
 ---
 
@@ -45,14 +40,14 @@ This will give you `train.csv` and `test.csv` in the `kaggle/` folder.
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/house-prices-pytorch.git
+   git clone https://github.com/weorgewiu/PriceAI.git
    cd house-prices-pytorch
    ```
 
 2. Run the training script:
 
    ```bash
-   python train.py
+   python predictor.py
    ```
 
 3. After training, the model will output:
