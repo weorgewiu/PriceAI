@@ -41,13 +41,13 @@ Included in the repository are `train.csv` and `test.csv`.
 
    ```bash
    git clone https://github.com/weorgewiu/PriceAI.git
-   cd house-prices-pytorch
+   cd PriceAI
    ```
 
 2. Run the training script:
 
    ```bash
-   python predictor.py
+   python regression_model.py
    ```
 
 3. After training, the model will output:
